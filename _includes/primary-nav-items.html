@@ -1,0 +1,20 @@
+<ul>
+  <li class="{% if page.home %}current{% endif %}">
+    <a href="{{ site.url }}/">Home</a>
+  </li>
+  <li class="{% if page.what' %}current{% endif %}">
+    <a href="{{ site.url }}/what">What is DocUI?</a>
+  </li>
+  <li class="{% if page.gettingstarted %}current{% endif %}">
+    <a href="{{ site.url }}/gettingstarted">Getting started</a>
+  </li>
+  <li class="{% if page.build %}current{% endif %}">
+    <a href="{{ site.url }}/build">Build your own</a>
+  </li>
+  <li class="{% if page.downloads %}current{% endif %}">
+    <a href="{{ site.url }}/downloads/">Downloads</a>
+  </li>
+  <li class="">
+    <a href="{{ site.repository }}"><span class="hide-on-mobiles">View on </span>GitHub</a>
+  </li>
+</ul>
