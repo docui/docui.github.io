@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Adding new xml schema's
+title: Add new xml schema's
 permalink: /schemas/
 prev_section: icons
 next_section: tree
