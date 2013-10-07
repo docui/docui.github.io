@@ -3,16 +3,16 @@
 * {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
+  -moz-box-sizing: border-box;article
 }
 
 body {
   font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 21px;
   font-weight: 300;
-  color: #ddd;
-  background: #333;
-  border-top: 5px solid #fc0;
+  color: #000000;
+  background: #F8F8F8;
+  border-top: 5px solid #68BA39;
   box-shadow: inset 0 3px 30px rgba(0,0,0,.3);
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
@@ -77,9 +77,8 @@ nav li {
 }
 
 .main-nav li a:hover {
-  background: #252525;
+  background: #68BA39;
   box-shadow: inset 0 1px 3px rgba(0,0,0,.5), 0 1px 0 rgba(255,255,255,.1);
-  text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 
 .main-nav li.current a {
@@ -138,15 +137,16 @@ nav li {
 /* Footer */
 
 body > footer {
-  background: #222;
+  background: #FFFFFF;
   font-size: 16px;
   padding-bottom: 5px;
   color: #888;
   margin-top: 40px;
+  border-top: 1px solid #68BA39;
 }
 
 body > footer a {
-  color: #fff;
+  color: #68BA39;
 }
 
 body > footer .align-right p, body > footer img {
@@ -363,7 +363,7 @@ body > footer a:hover img {
 
 
 article {
-  background: #444;
+  background: #FFFFFF;
   border-radius: 10px;
   padding: 20px;
   margin: 0 10px;
@@ -402,8 +402,9 @@ aside h4 {
   font-weight: 700;
   padding: 0 0 10px 30px;
   margin-left: -30px;
-  display: inline-block;
-  border-bottom: 1px solid #c00;
+  color: #68BA39;
+  border-bottom: 1px solid #68BA39;
+  text-shadow: none;
 }
 
 aside ul {
@@ -420,12 +421,13 @@ aside li {
 
 aside li a {
   font-size: 16px;
-  position: relative
+  position: relative;
+  text-shadow: none;
 }
 
 aside li.current a:before {
   content: "";
-  border-color: transparent transparent transparent #444;
+  border-color: transparent transparent transparent #ffffff;
   border-style: solid;
   border-width: 10px;
   width: 0;
@@ -656,7 +658,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-  color: #fc0;
+  color: #68BA39;
   text-decoration: none;
   transition: all .25s;
    -moz-transition: all .25s;
@@ -664,7 +666,7 @@ a {
 }
 
 a:hover {
-  color: #f90;
+  color: #164699;
 }
 
 strong {

@@ -1,6 +1,8 @@
 ---
-layout: docs
+layout: intro
 title: Getting started with DocUI
 ---
 
-First of all..
+If you're completely new to DocUI, you can download a demo application [here](/downloads).
+
+
