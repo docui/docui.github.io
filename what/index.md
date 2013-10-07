@@ -1,5 +1,5 @@
 ---
-layout: docs
+layout: regular
 title: What is DocUI?
 ---
 

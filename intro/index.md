@@ -1,5 +1,5 @@
 ---
-layout: intro
+layout: regular
 title: Getting started with DocUI
 ---
 
