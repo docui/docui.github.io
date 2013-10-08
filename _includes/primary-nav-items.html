@@ -11,10 +11,10 @@
   <li class="{% if page.url contains '/customize/' %}current{% endif %}">
     <a href="{{ site.url }}/customize/home">Build your own</a>
   </li>
-  <li class="{% if page.url contains '/downloads/'  %}current{% endif %}">
+  <li class="{% if page.url contains '/downloads/'  %}current{% endif %} hide-on-mobiles">
     <a href="{{ site.url }}/downloads/">Downloads</a>
   </li>
-  <li class="">
-    <a href="{{ site.repository }}"><span class="hide-on-mobiles">View on </span>GitHub</a>
+  <li class="hide-on-mobiles">
+    <a href="{{ site.repository }}">View on GitHub</a>
   </li>
 </ul>
