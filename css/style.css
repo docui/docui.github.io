@@ -460,7 +460,7 @@ aside li.current a:before {
 }
 
 .section-nav a, .section-nav span {
-  color: #fff;
+  color: #ffffff;
   font-size: 16px;
   text-transform: uppercase;
   font-weight: 700;
@@ -468,12 +468,12 @@ aside li.current a:before {
   border-radius: 5px;
   /*border: 1px solid #333;*/
   box-shadow: 0 1px 3px rgba(0,0,0,.3), inset 0 1px 1px rgba(255,255,255,.5);
-  background: #777;
+  background: #68BA39;
 }
 
 .section-nav a:hover {
-  color: #fff;
-  background: #888;
+  color: #ffffff;
+  background: #68BA39;
 }
 
 .section-nav .next, .section-nav .prev {
@@ -482,7 +482,7 @@ aside li.current a:before {
 
 .section-nav .next:after, .section-nav .prev:before {
   font-size: 36px;
-  color: #222;
+  color: #ffffff;
   font-weight: 800;
   text-shadow: 0 1px 0 rgba(255,255,255,.4);
   position: absolute;
